@@ -1,6 +1,6 @@
 # VuccaneGladiator
 
-#Descrição
+# Descrição
 O VuccaneGladiator é um plugin complexo e altamente otimizado desenvolvido para eventos de gladiadores em servidores Minecraft 1.8.8. O evento de gladiador reúne vários clãs em uma batalha épica, onde apenas um clã sobrevive. Com configurações abrangentes, este plugin oferece uma experiência completa e personalizada para os eventos de gladiador em seu servidor.
 
 As configurações do plugin permitem que você defina o local do camarote, onde os espectadores podem acompanhar a batalha de forma privilegiada. Além disso, é possível escolher a localização do evento em si, determinar se o evento será realizado com kits pré-definidos e configurar os itens específicos que estarão disponíveis nesses kits. O VuccaneGladiator também apresenta um sistema de bordas semelhante aos encontrados em jogos de batalha real, onde você pode definir o tamanho inicial da borda e o tempo para que ela comece a se reduzir gradualmente durante o evento.
