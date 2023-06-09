@@ -1,0 +1,8 @@
+main: me.flugel.vuccanegladiador.VuccaneGladiador
+name: VuccaneGladiador
+version: 1.0.1
+author: DevFlugelo
+commands:
+  gladiador:
+    aliases: [glad, gd]
+  sair:

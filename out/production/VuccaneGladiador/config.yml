@@ -1,0 +1,49 @@
+#█▀▀▄ █▀▀ ▀█░█▀ █▀▀▀ █░░░ █░▒█ █▀▀█ █▀▀▀ █░░░ █▀▀▀█#
+#█░▒█ █▀▀ ░█▄█░ █▀▀▀ █░░░ █░▒█ █░▄▄ █▀▀▀ █░░░ █░░▒█#
+#█▄▄▀ ▀▀▀ ░░▀░░ █░░░ █▄▄█ ▀▄▄▀ █▄▄█ █▄▄▄ █▄▄█ █▄▄▄█#
+###################################################################################################
+#Plugin desenvolvido por DevFlugelo, qualquer problema ou duvida reporte no discord : Flugelo#1371#
+#Plugin desenvolvido especialmente para o Servidor Vuccane                                        #
+###################################################################################################
+Config:
+  #contador: contagem para iniciação do evento, momentos de divulgação (em segundos);
+  #---====(Sobre a borda, ela vai diminuir ate 25% do valor total dela, entao ela vai diminuir 75% da massa dela, o mesmo se aplica ao tempo, a cada 25% do tempo, ele tira 25% da borda)====---
+
+  mensagem_de_divulgacao:
+    - ""
+    - "&e========================================"
+    - ""
+    - "&7O evento GLADIDOR esta prestes a começar"
+    - "&7Para participar do evento digite: &6/glad"
+    - ""
+    - "&eTempo para começar &6(tempo) &esegundos"
+    - ""
+    - "&e========================================"
+    - ""
+  #duração do evento (em segundos)
+  duracao_do_evento: 300
+  #duração dos players no lobby para começar o evento
+  tempo_no_lobby: 30
+  #Quantos clan precisa esta participando para o evento começar
+  quantidade_clan: 5
+
+Mensagens:
+  PlayerDeath: "&eJogador &6[(DeathPlayer)] &edo clan &6[(PlayerClanDeath)] &emorreu para o jogador &a[(playerKiller)] &edo clan &a[(PlayerClanKiller)]" #(DeathPlayer) = nome do morto, (PlayerClanDeath) = clan do morto, (playerKiller) = nome do matador, (PlayerClanKiller) = clan do matador
+  ClanEliminated: "&cO Clan &e(clan) &cfoi eliminado do evento &6GLADIADOR"
+  fechando_borda: "&a A borda sera fechada em &2(tempo) &asegundos"
+  clanWinner:
+    - "&c=============================================="
+    - "              &aGladiador"
+    - ""
+    - "          &eEvento finalizado!"
+    - "&6Clan ganhador do evento: &e(clanWinner)"
+    - ""
+    - "&6 Premio em dinheiro: &e(dinheiro)"
+    - ""
+    - "&6Status dos jogadores em kill's:"
+    - "&21° {matador1} &7(&c{kill1}&7)"
+    - "&a1° {matador2} &7(&c{kill2}&7)"
+    - "&e1° {matador3} &7(&c{kill3}&7)"
+    - ""
+    - "&c=============================================="
+
